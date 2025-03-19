@@ -6,3 +6,17 @@
     color: blue;
     size: 10px;
 }
+
+.Opake_Text_BcGreen {
+    background-color: green;
+    opacity: 0.3;
+}
+ 
+.BakgrundImg_Agrup {
+    size-adjust: x = 200px y = 200px;
+    opacity: 0.7;
+}
+
+body {
+    background-image: url(SnowFox.jpg);
+}

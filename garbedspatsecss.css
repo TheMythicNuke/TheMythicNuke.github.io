@@ -1,0 +1,7 @@
+body {
+    background-image: url(SnowFox.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    margin-right: 400px;
+    background-attachment: fixed;
+}
