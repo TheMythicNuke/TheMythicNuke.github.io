@@ -5,3 +5,12 @@ body {
     margin-right: 400px;
     background-attachment: fixed;
 }
+
+.SadovRealme {
+    color: white;
+ text-shadow: 2px 2px 4px #000;
+}
+
+.SadovRealme2 {
+    text-shadow: 0 0 3px #ff0000;
+}
