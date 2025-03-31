@@ -1,0 +1,47 @@
+div {
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+div.XD_E {
+    width: 300px;
+}
+
+div.XD_S {
+    width: 50%;
+}
+
+div.XD_MAX {
+    max-width: 300px;
+}
+
+p.tun {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+p.medel {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+p.stor {
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+
+p.QX {
+    margin: 50px;
+}
+
+p.QX_L {
+    margin-left: 50px;
+}
+
+p.QX_A {
+    margin: auto;
+}
