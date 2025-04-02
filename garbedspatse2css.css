@@ -4,6 +4,28 @@ div {
     margin: 10px;
 }
 
+body {
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: azure;
+    }    
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: crimson;
+    }    
+}
+
 div.XD_E {
     width: 300px;
 }

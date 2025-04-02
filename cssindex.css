@@ -6,6 +6,12 @@ h3 {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .Was-1 {
+        font-size: 90px;
+    }
+}
+
 .Pink_Text10px {
     color: pink;
     size: 10px;
