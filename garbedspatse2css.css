@@ -67,3 +67,25 @@ p.QX_L {
 p.QX_A {
     margin: auto;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar a {
+    padding: 10px;
+    text-align: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 2px solid #333;
+}
+
+.navbar .longlink {
+    flex-basis: 200px;
+    flex-grow: 2;
+    white-space: nowrap;
+}
