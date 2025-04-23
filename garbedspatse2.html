@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="garbedspatse2css.css">
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+        }
+        .grid-container>div {
+            padding: 10px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .item1 {
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .item2 {
+            background-color: azure;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .item3 {
+            background-color: crimson;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    </style>
 </head>
 <body>
     <div class="XD_E">Stand stil</div>
@@ -21,6 +54,11 @@
         <a href="#">Services</a>
         <a href="#" class="longlink">Our Amazing Blog and Resources</a>
         <a href="#">Contact</a>
+    </div>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
     </div>
 </body>
 </html>
