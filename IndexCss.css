@@ -1,4 +1,12 @@
 
+@media screen and (min-width: 1600px) and (min-height: 1000px) {
+   
+}
+
+ul {
+    list-style: none;
+}
+
 .GridStile {
     display: grid;
     grid-template-columns: 640px 640px 640px;
@@ -19,6 +27,20 @@
     grid-row-end: 2;
 }
 
+.LogoLokation {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.BackgrundLokation {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
 .Titext {
     text-align: center;
     size: 30px;
@@ -26,4 +48,15 @@
 
 .Lokation1 {
     padding-top: 250px;
+}
+
+.StyleBotton {
+    width: 150px;
+    height: 30px;   
+    border-radius: 9px;
+    background-color: silver;
+}
+
+.listaline {
+    text-align: center;
 }
