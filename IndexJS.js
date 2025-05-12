@@ -3,7 +3,7 @@ const images = [
     `sowpis2.jpg`,
     `sowpis4.jpg`,
     `sowpis3.jpg`,
-    `sowpis1S,jpg`
+    `sowpis1S.jpg`
 ];
 
 let currentIndex = 0
