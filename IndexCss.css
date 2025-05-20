@@ -90,6 +90,11 @@ ul {
     text-align: center;
 }
 
+.paderserts {
+    padding-top: 300px; 
+    padding-left: 50px;
+}
+
 @media screen and (max-width: 450px) {
    .GridStile {
     grid-template-columns: 136px 136px 136px;
@@ -97,5 +102,18 @@ ul {
     }
    .StyleBotton {
     height: 60px;
+   }
+   .listaline {
+    position: relative;
+    right: 46px;
+   }
+   .Lokation1 {
+    padding-top: 200px;
+    position: relative;
+    right: 45px;
+   }
+   .paderserts {
+    padding-top: 250px;
+    padding-left: 70px;
    }
 }
