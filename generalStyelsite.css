@@ -55,3 +55,30 @@
 ul {
     list-style: none;
 }
+
+.sidebarbuttonstyle {
+    width: 100px;
+    height: 30px;
+    background-color: silver;
+    border-radius: 1pc;
+    color: #432354;
+}
+
+.maneboxstyle {
+    overflow-y: scroll;
+}
+
+.ProdktBox {
+    width: fit-content;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ImgProdktBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
