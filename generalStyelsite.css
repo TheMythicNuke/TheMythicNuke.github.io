@@ -82,3 +82,21 @@ ul {
     height: 200px;
     border-radius: 10px;
 }
+
+.SidebarBorder {
+    border: 2px;
+    border-style: solid;
+}
+
+.TopBorder {
+    border: 2px;
+    border-style: solid;
+}
+
+.bgimage {
+    background-image: url("by.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
